@@ -14,6 +14,7 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-indigo-500 min-h-screen">
+      
       <BrowserRouter>
         <Routes>
           {/* card home */}
