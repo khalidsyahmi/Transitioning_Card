@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import TUi from "../assets/tailwindui.jpg";
-import Business_1 from "../assets/business_1.png";
-
-const Card = ({ t1, t2, t3, linkName }) => {
+const Card = ({ tN1, tN2, t1, t2, t3, linkName }) => {
   const [isHovering, setIsHovering] = useState(false);
 
-  const imgSrc = isHovering ? TUi : Business_1;
+  const imgSrc = isHovering ? tN2 : tN1;
 
   //place onMouseEnter on parent element to wrap the whole function
   return (

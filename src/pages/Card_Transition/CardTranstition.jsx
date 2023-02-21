@@ -14,6 +14,8 @@ const CardTranstition = () => {
           {CardData.map((item) => (
             <div className="hover:row-span-2">
               <Card
+                tN1={item.tN1}
+                tN2={item.tN2}
                 t1={item.t1}
                 t2={item.t2}
                 t3={item.t3}

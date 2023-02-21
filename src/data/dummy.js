@@ -1,52 +1,70 @@
 //You can export component or array props here
 
+import Thumbnail_x_Hover from "../assets/business_1.png";
+import Thumbnail_Hover from "../assets/tailwindui.jpg";
 import SkullStereo from "../assets/skull_stereo.jpg";
 import PokeBall from "../assets/pngwing.com.png";
 
 export const CardData = [
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-one",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-two",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-one",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-two",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-one",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-two",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
     linkName: "page-one",
   },
   {
+    tN1: Thumbnail_x_Hover,
+    tN2: Thumbnail_Hover,
     t1: "Humming Bird",
     t2: "Hummingbirds are a symbol of good luck",
     t3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!",
