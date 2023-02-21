@@ -8,7 +8,7 @@ const CardTranstition = () => {
         Transitioning cards page
       </h1>
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-7 p-10">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-7 p-14">
           <div className="hover:row-span-2 ">
             <Card
               t1="this"
@@ -29,7 +29,7 @@ const CardTranstition = () => {
               linkName="page-one"
             />
           </div>
-          <div className="hover:row-span-3">
+          <div className="hover:row-span-2">
             <Card
               t1="this"
               t2="that"

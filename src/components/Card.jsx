@@ -11,22 +11,25 @@ const Card = ({ t1, t2, t3, linkName }) => {
 
   //place onMouseEnter on parent element to wrap the whole function
   return (
-    <div className="container ">
-      {/* hover wrap */}
+    <div
+      className="container"
+      /* hover wrap */
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
       <div
-        className="w-80 bg-white overflow-hidden shadow-xl rounded-md group
-    transition-all duration-300 ease-out hover:ease-in hover:cursor-pointer
-    hover:bg-slate-800 hover:text-white 
-    "
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+        className={`w-80 bg-white overflow-hidden shadow-xl rounded-md group
+        ${isHovering ? "transform scale-110 " : "transform scale-90 "} 
+        transition-all duration-300 ease-out hover:ease-in 
+      hover:bg-slate-800 hover:text-white 
+        `}
       >
         {/* image */}
         <div className="h-48 overflow-hidden">
           <img
             className={`w-full ${
               isHovering ? "transform scale-90 " : "transform scale-110 "
-            } transition-transform duration-500 `}
+            } transition-transform duration-500 hover:cursor-pointer`}
             src={imgSrc}
             alt="Image"
           />
