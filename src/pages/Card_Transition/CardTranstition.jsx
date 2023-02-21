@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../../components/Card";
 
+import { CardData } from "../../data/dummy";
+
 const CardTranstition = () => {
   return (
     <div className="">
@@ -9,89 +11,16 @@ const CardTranstition = () => {
       </h1>
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-7 p-14">
-          <div className="hover:row-span-2 ">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
-          <div className="hover:row-span-2">
-            <Card
-              t1="this"
-              t2="that"
-              t3="Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Molestias illum alias maxime facilis consectetur unde autem laborum tempore velit provident! 
-          Maiores consequatur vel asperiores assumenda ad incidunt debitis aliquid ipsam!"
-              linkName="page-one"
-            />
-          </div>
+          {CardData.map((item) => (
+            <div className="hover:row-span-2">
+              <Card
+                t1={item.t1}
+                t2={item.t2}
+                t3={item.t3}
+                linkName={item.linkName}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>

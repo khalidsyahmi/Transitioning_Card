@@ -1,7 +1,7 @@
 import React from "react";
-import SD from "../assets/tailwindui.jpg";
+//import SD from "../assets/tailwindui.jpg";
 
-const page1 = () => {
+const page1 = ({ profile, h1, p1, p2 }) => {
   return (
     <div className="bg-yellow-300">
       <div className="container mx-auto py-10">
@@ -10,15 +10,13 @@ const page1 = () => {
           <div className="flex items-center my-10">
             <img
               className="w-48 h-48 rounded-full ml-12"
-              src={SD}
+              src={profile}
               alt="Profile"
             />
             <div className="flex-1">
-              <h2 className="text-2xl font-bold mb-2">Page One</h2>
-              <p className="text-gray-700 mb-2">
-                Software Engineer at XYZ Inc.
-              </p>
-              <p className="text-gray-700">San Francisco, CA</p>
+              <h2 className="text-2xl font-bold mb-2">{h1}</h2>
+              <p className="text-gray-700 text-center m-4">{p1}</p>
+              <p className="text-gray-700 text-start indent-10 px-12 mt-5">{p2}</p>
             </div>
           </div>
         </div>
